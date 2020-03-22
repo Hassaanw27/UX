@@ -11,12 +11,14 @@ section {
   text-align: center;
   margin-top: 4em;
 }
-.avatar{
+
+.avatar {
   width: 100px;
   position: absolute;
   border-radius: 50%;
   margin-left: 5%;
 }
+
 h1, h3 {
   font-weight: 300;
 }
@@ -29,7 +31,7 @@ h3 {
   color: #4a89dc;
 }
 
-.logo{
+.logo {
   width: 10%;
 }
 
@@ -165,10 +167,10 @@ input:focus~.highlight {
   letter-spacing: 1px;
   background-color: #00bf1d;
   border: 0;
-  ;
   cursor: pointer;
   transition: all 0.15s ease;
   text-decoration: none;
+  border-bottom: 1px solid #757575;
 }
 
 .loginbtn:focus {
