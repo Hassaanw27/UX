@@ -1,30 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="main.css">
-  <title>UX bum bum </title>
+  <link rel="stylesheet" href="new.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>UX</title>
 </head>
-<body>
- <!-- <img src="profile.png" alt="Avatar" class="avatar"> -->
-  <section>
-    <img src="vent2u.png" alt="" class="logo">
-    <h1>Welcome</h1>
-  </section>
-  <form>
-    <div class="group">
-      <input type="text"  placeholder="Email" ><span class="highlight"></span><span class="bar"></span>
-    </div>
-    <div class="group">
-      <input type="password" placeholder="Kodeord"><span class="highlight"></span><span class="bar"></span>
-    </div>
-    <a class="loginbtn" href="https://www.google.dk/search?client=opera&q=how+to+come+out+as+gay&sourceid=opera&ie=UTF-8&oe=UTF-8">Login</a>
-    </button>
-  </form>
-<script src="java.js">
 
-</script>
+<body>
+  <div class="cards">
+    <div id="nytkort">
+      <h5 class="titletext">Winter Preset</h5>
+      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
+      <div class="link">
+        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      </div>
+      <div class="icon">
+        <i class="material-icon">ac_unit</i>
+      </div>
+      <div>
+        <label class="inputtoggle">
+          <input type="checkbox" unchecked onChange="anotherFunction(nytkort, this)">
+          <span class="switch1"></span>
+        </label>
+      </div>
+    </div>
+    <div id="nytkort2">
+      <h5 class="titletext">Winter Preset</h5>
+      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
+      <div class="link">
+        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      </div>
+      <div class="icon">
+        <i class="material-icon">ac_unit</i>
+      </div>
+      <div>
+        <label class="inputtoggle1">
+          <input id="checkbox" type="checkbox" unchecked onChange="myFunction(nytkort2, this)">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    <div id="nytkort3">
+      <h5 class="titletext">Winter Preset</h5>
+      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
+      <div class="link">
+        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      </div>
+      <div class="icon">
+        <i class="material-icon">ac_unit</i>
+      </div>
+      <div>
+        <label class="inputtoggle2">
+          <input type="checkbox" unchecked onChange="athirdFunction(nytkort3, this)">
+          <span></span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="java.js">
+
+  </script>
 </body>
+
+</html>
+
+
+</body>
+
 </html>

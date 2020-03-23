@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  user-select: none;
+}
+
+#nytkort {
+  width: 350px;
+  height: 160px;
+  background-color: white;
+  margin-left: 200px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-left: 4px solid rgba(0, 153, 51, 0.2);
+  position: absolute;
+  top: 100px;
+}
+
+#nytkort2 {
+  width: 350px;
+  height: 160px;
+  background-color: white;
+  margin-left: 200px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-left: 4px solid rgba(255, 0, 0, 0.2);
+  position: absolute;
+  top: 270px;
+}
+#nytkort3 {
+  width: 350px;
+  height: 160px;
+  background-color: white;
+  margin-left: 200px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-left: 4px solid rgba(0, 0, 255, 0.2);
+  position: absolute;
+  top: 440px;
+}
+
+
+
+.titletext {
+  font-family: Roboto;
+  font-weight: 400;
+  padding-left: 24px;
+  padding-top: 24px;
+  font-size: 18pt;
+  margin: 0;
+  position: absolute;
+}
+
+.supportingtext {
+  padding-left: 24px;
+  font-family: Roboto;
+  font-weight: 300;
+  width: 60%;
+  color: grey;
+  position: absolute;
+  top: 30%;
+}
+
+.link {
+  text-align: center;
+}
+
+.activatebutton {
+  text-decoration: none;
+  position: absolute;
+  bottom: 12px;
+  left: 24px;
+  color: #374761;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: none;
+}
+
+.icon{
+  position: absolute;
+  right: 24px;
+  top: 30px;
+}
+
+.material-icon{
+  font-size: 72pt;
+  font-style: normal;
+  font-family: material icons;
+}
+
+label.inputtoggle {
+  line-height: 0;
+  font-size: 0;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  left: 24px;
+  bottom: 12px;
+}
+
+label.inputtoggle>span {
+  display: inline-block;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(#848484), color-stop(50%, #848484), color-stop(50%, #7cbcbf), to(#7cbcbf));
+  background-image: linear-gradient(to right, grey 0%, grey 50%, #90ee90 50%, #90ee90 100%);
+  background-size: 64px 14px;
+  background-position: 0%;
+  border-radius: 32px;
+  width: 32px;
+  height: 14px;
+  cursor: pointer;
+  -webkit-transition: background-position 0.2s ease-in;
+  transition: background-position 0.2s ease-in;
+}
+
+label.inputtoggle>input:checked+span {
+  background-position: -100%;
+}
+
+label.inputtoggle>span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #F1F1F1;
+  align-self: center;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+label.inputtoggle>input:checked+span:after {
+  left: calc(100% - 18px);
+  background-color: green;
+}
+
+label.inputtoggle>input {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+label.inputtoggle1 {
+  line-height: 0;
+  font-size: 0;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  left: 24px;
+  bottom: 12px;
+}
+
+label.inputtoggle1>span {
+  display: inline-block;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(#848484), color-stop(50%, #848484), color-stop(50%, #7cbcbf), to(#7cbcbf));
+  background-image: linear-gradient(to right, grey 0%, grey 50%, #ffcccb 50%, #ffcccb 100%);
+  background-size: 64px 14px;
+  background-position: 0%;
+  border-radius: 32px;
+  width: 32px;
+  height: 14px;
+  cursor: pointer;
+  -webkit-transition: background-position 0.2s ease-in;
+  transition: background-position 0.2s ease-in;
+}
+
+label.inputtoggle1>input:checked+span {
+  background-position: -100%;
+}
+
+label.inputtoggle1>span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #F1F1F1;
+  align-self: center;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+label.inputtoggle1>input:checked+span:after {
+  left: calc(100% - 18px);
+  background-color: red;
+}
+
+label.inputtoggle1>input {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+label.inputtoggle2 {
+  line-height: 0;
+  font-size: 0;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  left: 24px;
+  bottom: 12px;
+}
+
+label.inputtoggle2>span {
+  display: inline-block;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(#848484), color-stop(50%, #848484), color-stop(50%, #7cbcbf), to(#7cbcbf));
+  background-image: linear-gradient(to right, grey 0%, grey 50%, #add8e6 50%, #add8e6 100%);
+  background-size: 64px 14px;
+  background-position: 0%;
+  border-radius: 32px;
+  width: 32px;
+  height: 14px;
+  cursor: pointer;
+  -webkit-transition: background-position 0.2s ease-in;
+  transition: background-position 0.2s ease-in;
+}
+
+label.inputtoggle2>input:checked+span {
+  background-position: -100%;
+}
+
+label.inputtoggle2>span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #F1F1F1;
+  align-self: center;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
+  transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+label.inputtoggle2>input:checked+span:after {
+  left: calc(100% - 18px);
+  background-color: blue;
+}
+
+label.inputtoggle2>input {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
