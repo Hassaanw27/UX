@@ -12,6 +12,15 @@ section {
   margin-top: 4em;
 }
 
+#account{
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 5%;
+  color: #25A73B;
+  font-size: 50px;
+}
+
 .avatar {
   width: 100px;
   position: absolute;
@@ -165,7 +174,7 @@ input:focus~.highlight {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   letter-spacing: 1px;
-  background-color: #00bf1d;
+  background-color: #25A73B;
   border: 0;
   cursor: pointer;
   transition: all 0.15s ease;
