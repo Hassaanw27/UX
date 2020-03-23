@@ -13,6 +13,21 @@
 </head>
 
 <body>
+  <div class="systembar">
+    <div class="wc-box">
+      <div class="minimize"></div>
+      <div class="maximize"></div>
+      <div class="close"></div>
+    </div>
+  </div>
+  <div class="maincontrol">
+    <div class="slider">
+
+    </div>
+    <div class="activatementalshower">
+      <p class="activatetekst">AKTIVER</p>
+    </div>
+  </div>
   <div class="cards">
     <div id="nytkort">
       <h5 class="titletext">Winter Preset</h5>
@@ -25,14 +40,14 @@
       </div>
       <div>
         <label class="inputtoggle">
-          <input type="checkbox" unchecked onChange="anotherFunction(nytkort, this)">
+          <input id="winterpreset"type="checkbox" checked onChange="anotherFunction(nytkort, this)">
           <span class="switch1"></span>
         </label>
       </div>
     </div>
     <div id="nytkort2">
-      <h5 class="titletext">Winter Preset</h5>
-      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
+      <h5 class="titletext">Summer Preset</h5>
+      <p class="supportingtext">Tryk her for at aktivere sommerindstillingen</p>
       <div class="link">
         <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
       </div>
@@ -47,8 +62,8 @@
       </div>
     </div>
     <div id="nytkort3">
-      <h5 class="titletext">Winter Preset</h5>
-      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
+      <h5 class="titletext">Spring Preset</h5>
+      <p class="supportingtext">Tryk her for at aktivere forårsindstillingen</p>
       <div class="link">
         <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
       </div>
@@ -62,6 +77,23 @@
         </label>
       </div>
     </div>
+    <div id="nytkort4">
+      <h5 class="titletext">Spring Preset</h5>
+      <p class="supportingtext">Tryk her for at aktivere forårsindstillingen</p>
+      <div class="link">
+        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      </div>
+      <div class="icon">
+        <i class="material-icon">ac_unit</i>
+      </div>
+      <div>
+        <label class="inputtoggle3">
+          <input type="checkbox" unchecked onChange="afourthFunction(nytkort4, this)">
+          <span></span>
+        </label>
+      </div>
+    </div>
+
   </div>
 
 
