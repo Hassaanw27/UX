@@ -78,15 +78,60 @@ body {
   position: absolute;
 }
 
+.logo {
+  text-align: center;
+}
+
+.loginpicture{
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  background-color: #CCC;
+  width: 140px;
+  border-radius: 40px;
+  display: flex;
+}
+.logoicon{
+  font-family: material icons;
+  font-style: normal;
+  color: green;
+  font-size: 32pt;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+.logowidgettekst{
+  font-family: Roboto;
+  font-size: 10pt;
+  margin-left: 4px;
+  color: grey
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+}
+
+h1::first-letter {
+  color: green;
+  width: 100%;
+}
+
+h2{
+  font-family: Roboto light;
+  padding: 60px;
+  font-size: 24pt;
+}
+
 #maincontrol {
   position: absolute;
-  top: 80px;
-  height: 650px;
+  top: 120px;
+  height: 70%;
   width: 60%;
-  left: 350px;
+  left: 20%;
   background-color: white;
   border-radius: 6px;
-  border-top: 4px solid rgba(0, 153, 51, 1);
+  border-top: 4px solid #7C25A7;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   text-align: center;
   display: flex;
@@ -121,17 +166,17 @@ body {
 
 .infodisp {
   position: absolute;
-  top: 80px;
-  height: 650px;
-  width: 250px;
-  left: 80px;
+  top: 120px;
+  height: 70%;
+  width: 12%;
+  left: 150px;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 6px;
   display: flex;
 }
 
-.dials{
+.dials {
   height: 90%;
   width: 80%;
   align-self: center;
@@ -139,7 +184,7 @@ body {
   text-align: center;
 }
 
-.dialtxt{
+.dialtxt {
   font-family: Roboto medium;
   text-transform: uppercase;
   text-align: center;
@@ -147,36 +192,61 @@ body {
   font-size: 8pt;
 }
 
-#temp{
-  height: 100px;
-  width: 100px;
-  border: 10px solid rgba(0, 153, 51, 1);
+#temp {
+  height: 140px;
+  width: 140px;
+  border: 4px solid #7C25A7;
   border-radius: 50%;
   display: flex;
   margin: 0 auto;
 }
-#temp2{
-  height: 100px;
-  width: 100px;
-  border: 10px solid rgba(0, 153, 51, 1);
+
+#temp2 {
+  height: 140px;
+  width: 140px;
+  border: 4px solid #7C25A7;
   border-radius: 50%;
   display: flex;
   margin: 0 auto;
 }
-#temp3{
-  height: 100px;
-  width: 100px;
-  border: 10px solid rgba(0, 153, 51, 1);
+
+#temp3 {
+  height: 140px;
+  width: 140px;
+  border: 4px solid #7C25A7;
   border-radius: 50%;
   display: flex;
   margin: 0 auto;
 }
-.info{
+
+.info {
   align-self: center;
   width: 100%;
   font-family: Roboto light;
   font-size: 18pt;
 }
+
+#demo {
+  align-self: center;
+  width: 100%;
+  font-family: Roboto light;
+  font-size: 18pt;
+}
+
+#demo2 {
+  align-self: center;
+  width: 100%;
+  font-family: Roboto light;
+  font-size: 18pt;
+}
+
+#demo3 {
+  align-self: center;
+  width: 100%;
+  font-family: Roboto light;
+  font-size: 18pt;
+}
+
 .cards {
   height: 100vh;
   min-width: 25%;
@@ -184,55 +254,88 @@ body {
   right: 0px;
 }
 
+.settingsbutton{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: material icons;
+  font-size: 24pt;
+  border: none;
+  background-color: white;
+  outline: 0 none;
+}
+
+#console{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: 90%;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  border-radius: 6px;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 -1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.sliders{
+  position: absolute;
+  bottom: 0;
+}
+
+.slidersinv{
+  padding: 20px;
+  padding-top: 180px;
+}
+
 #nytkort {
-  width: 60%;
+  width: 50%;
   height: 140px;
   background-color: white;
-  margin-left: 80px;
+  margin-left: 100px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid rgba(0, 153, 51, 1);
+  border-left: 4px solid #7C25A7;
   position: absolute;
-  top: 80px;
+  top: 120px;
   left: 40px;
 }
 
 #nytkort2 {
-  width: 60%;
+  width: 50%;
   height: 140px;
   background-color: white;
-  margin-left: 80px;
+  margin-left: 100px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid rgba(255, 0, 0, 0.2);
+  border-left: 4px solid rgba(25, 141, 255, 0.2);
   position: absolute;
-  top: 250px;
+  top: 330px;
   left: 40px;
 }
 
 #nytkort3 {
-  width: 60%;
+  width: 50%;
   height: 140px;
   background-color: white;
-  margin-left: 80px;
+  margin-left: 100px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid rgba(0, 0, 255, 0.2);
+  border-left: 4px solid rgba(255, 170, 0, 0.2);
   position: absolute;
-  top: 420px;
+  top: 530px;
   left: 40px;
 }
 
 #nytkort4 {
-  min-width: 60%;
+  width: 50%;
   height: 140px;
   background-color: white;
-  margin-left: 80px;
+  margin-left: 100px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid rgba(255, 255, 0, 0.2);
+  border-left: 4px solid rgba(0, 0, 0, 0.2);
   position: absolute;
-  top: 590px;
+  top: 730px;
   left: 40px;
 }
 
@@ -303,7 +406,7 @@ label.inputtoggle>span {
   display: inline-block;
   position: relative;
   background-image: -webkit-gradient(linear, left top, right top, from(#848484), color-stop(50%, #848484), color-stop(50%, #7cbcbf), to(#7cbcbf));
-  background-image: linear-gradient(to right, grey 0%, grey 50%, #90ee90 50%, #90ee90 100%);
+  background-image: linear-gradient(to right, grey 0%, grey 50%, #7C25A7 50%, #7C25A7 100%);
   background-size: 64px 14px;
   background-position: 0%;
   border-radius: 32px;
@@ -340,7 +443,7 @@ label.inputtoggle>span:after {
 
 label.inputtoggle>input:checked+span:after {
   left: calc(100% - 18px);
-  background-color: green;
+  background-color: #4A1664;
 }
 
 label.inputtoggle>input {
@@ -365,7 +468,7 @@ label.inputtoggle1>span {
   display: inline-block;
   position: relative;
   background-image: -webkit-gradient(linear, left top, right top, from(#848484), color-stop(50%, #848484), color-stop(50%, #7cbcbf), to(#7cbcbf));
-  background-image: linear-gradient(to right, grey 0%, grey 50%, #ffcccb 50%, #ffcccb 100%);
+  background-image: linear-gradient(to right, grey 0%, grey 50%, #198dff 50%, #198dff 100%);
   background-size: 64px 14px;
   background-position: 0%;
   border-radius: 32px;
@@ -402,7 +505,7 @@ label.inputtoggle1>span:after {
 
 label.inputtoggle1>input:checked+span:after {
   left: calc(100% - 18px);
-  background-color: red;
+  background-color: #0F5499;
 }
 
 label.inputtoggle1>input {
@@ -427,7 +530,7 @@ label.inputtoggle2>span {
   display: inline-block;
   position: relative;
   background-image: -webkit-gradient(linear, left top, right top, from(#848484), color-stop(50%, #848484), color-stop(50%, #7cbcbf), to(#7cbcbf));
-  background-image: linear-gradient(to right, grey 0%, grey 50%, #add8e6 50%, #add8e6 100%);
+  background-image: linear-gradient(to right, grey 0%, grey 50%, #ffaa00 50%, #ffaa00 100%);
   background-size: 64px 14px;
   background-position: 0%;
   border-radius: 32px;
@@ -464,7 +567,7 @@ label.inputtoggle2>span:after {
 
 label.inputtoggle2>input:checked+span:after {
   left: calc(100% - 18px);
-  background-color: blue;
+  background-color: #996600;
 }
 
 label.inputtoggle2>input {
@@ -489,7 +592,7 @@ label.inputtoggle3>span {
   display: inline-block;
   position: relative;
   background-image: -webkit-gradient(linear, left top, right top, from(#848484), color-stop(50%, #848484), color-stop(50%, #7cbcbf), to(#7cbcbf));
-  background-image: linear-gradient(to right, grey 0%, grey 50%, #ffff40 50%, #ffff40 100%);
+  background-image: linear-gradient(to right, grey 0%, grey 50%, #555 50%, #555 100%);
   background-size: 64px 14px;
   background-position: 0%;
   border-radius: 32px;
@@ -527,7 +630,7 @@ label.inputtoggle3>span:after {
 
 label.inputtoggle3>input:checked+span:after {
   left: calc(100% - 18px);
-  background-color: yellow;
+  background-color: rgb(0, 0, 0);
 }
 
 label.inputtoggle3>input {
@@ -540,10 +643,10 @@ label.inputtoggle3>input {
 
 #countdown {
   position: absolute;
-  top: 80px;
-  height: 650px;
+  top: 120px;
+  height: 70%;
   width: 60%;
-  left: 350px;
+  left: 20%;
   display: flex;
   justify-content: center;
 }
@@ -558,7 +661,7 @@ svg {
   stroke-dashoffset: 0px;
   stroke-linecap: round;
   stroke-width: 12px;
-  stroke: #009933;
+  stroke: #7C25A7;
   fill: none;
   animation: countdown 8s linear infinite forwards;
 }
@@ -571,4 +674,84 @@ svg {
   to {
     stroke-dashoffset: 0px;
   }
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 80%;
+  margin: 7.05px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1.9px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #4de14d;
+  border-radius: 0px;
+  border: 0px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  background: #00d000;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.05px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #51e251;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 1.9px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #4de14d;
+  border-radius: 0px;
+  border: 0px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  background: #00d000;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 1.9px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #49e049;
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-fill-upper {
+  background: #4de14d;
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  background: #00d000;
+  cursor: pointer;
+  height: 1.9px;
 }

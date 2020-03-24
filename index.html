@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   <title>UX</title>
 </head>
 
@@ -19,8 +20,17 @@
       <div class="maximize"></div>
       <div class="close"></div>
     </div>
+    <div class="logo">
+      <h1>Vent2U</h1>
+    </div>
+    <div class="loginpicture">
+      <i class="logoicon">account_circle</i>
+      <p class="logowidgettekst">Adam Jessen</p>
+    </div>
+
   </div>
   <div id="maincontrol">
+    <h2>MENTAL SHOWER</h2>
   </div>
   <div id="countdown">
     <svg id="svg">
@@ -32,29 +42,43 @@
   <div class="infodisp">
     <section class="dials">
       <p class="dialtxt">Temperatur</p>
-      <div id="temp"><p class="info">24°</p>
+      <div id="temp">
+        <p id="demo">20°</p>
       </div>
       <p class="dialtxt">luftfugtighed</p>
-      <div id="temp2"><p class="info">45%</p>
+      <div id="temp2">
+        <p id="demo2">45%</p>
 
       </div>
       <p class="dialtxt">lystemperatur</p>
-      <div id="temp3"><p class="info">3400K</p>
+      <div id="temp3">
+        <p id="demo3">8400K</p>
+        <button class="settingsbutton" type="button" name="button">tune</button>
 
       </div>
+      <div id="console">
+        <div class="sliders">
+          <input class="slidersinv" type="range" id="a" name="a" min="0" max="100" value="50" tabindex="0"/>
+          <output name="result" for="a">40</output>
+          <input class="slidersinv" type="range"  min="0" max="100" value="50" tabindex="0"/>
+          <input class="slidersinv" type="range"  min="0" max="100" value="50" tabindex="0"/>
+        </div>
+
+      </div>
+
     </section>
 
-    </div>
+  </div>
   </div>
   <div class="cards">
     <div id="nytkort">
-      <h5 class="titletext">Winter Preset</h5>
-      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
+      <h5 class="titletext">Automatisk</h5>
+      <p class="supportingtext">Tryk her for at aktivere autoindstillingen</p>
       <div class="link">
         <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
       </div>
       <div class="icon">
-        <i class="material-icon">ac_unit</i>
+        <i class="material-icon">brightness_auto</i>
       </div>
       <div>
         <label class="inputtoggle">
@@ -64,8 +88,8 @@
       </div>
     </div>
     <div id="nytkort2">
-      <h5 class="titletext">Summer Preset</h5>
-      <p class="supportingtext">Tryk her for at aktivere sommerindstillingen</p>
+      <h5 class="titletext">Koldere</h5>
+      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
       <div class="link">
         <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
       </div>
@@ -80,13 +104,13 @@
       </div>
     </div>
     <div id="nytkort3">
-      <h5 class="titletext">Spring Preset</h5>
+      <h5 class="titletext">Varmere</h5>
       <p class="supportingtext">Tryk her for at aktivere forårsindstillingen</p>
       <div class="link">
         <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
       </div>
       <div class="icon">
-        <i class="material-icon">ac_unit</i>
+        <i class="material-icon">wb_sunny</i>
       </div>
       <div>
         <label class="inputtoggle2">
@@ -96,13 +120,13 @@
       </div>
     </div>
     <div id="nytkort4">
-      <h5 class="titletext">Spring Preset</h5>
-      <p class="supportingtext">Tryk her for at aktivere forårsindstillingen</p>
+      <h5 class="titletext">Brugerdefineret</h5>
+      <p class="supportingtext">Tryk her for at aktivere din brugerdefinerede indstilling</p>
       <div class="link">
         <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
       </div>
       <div class="icon">
-        <i class="material-icon">ac_unit</i>
+        <i class="material-icon">settings</i>
       </div>
       <div>
         <label class="inputtoggle3">
