@@ -2,13 +2,7 @@ body {
   margin: 0;
   user-select: none;
   background-color: #eee;
-}
-
-.cards {
-  height: 100vh;
-  width: 500px;
-  position: absolute;
-  right: 72px;
+  min-width: 100%;
 }
 
 .wc-box {
@@ -84,12 +78,12 @@ body {
   position: absolute;
 }
 
-.maincontrol {
+#maincontrol {
   position: absolute;
   top: 80px;
   height: 650px;
   width: 60%;
-  left: 230px;
+  left: 350px;
   background-color: white;
   border-radius: 6px;
   border-top: 4px solid rgba(0, 153, 51, 1);
@@ -97,6 +91,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .activatementalshower {
@@ -106,67 +101,139 @@ body {
   background-color: white;
   align-self: center;
   border-radius: 50%;
-  display: inline-block;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
-}
-
-.activatetekst {
-  width: 100%;
-  align-self: center;
+  border: none;
   text-align: center;
   font-family: Roboto medium;
   font-style: normal;
   text-transform: uppercase;
   color: #009688;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 0 none;
+}
+
+.activatementalshower:active {
+  transform: translateY(1.5px);
+}
+
+.infodisp {
+  position: absolute;
+  top: 80px;
+  height: 650px;
+  width: 250px;
+  left: 80px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 6px;
+  display: flex;
+}
+
+.dials{
+  height: 90%;
+  width: 80%;
+  align-self: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dialtxt{
+  font-family: Roboto medium;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 24px;
+  font-size: 8pt;
+}
+
+#temp{
+  height: 100px;
+  width: 100px;
+  border: 10px solid rgba(0, 153, 51, 1);
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+#temp2{
+  height: 100px;
+  width: 100px;
+  border: 10px solid rgba(0, 153, 51, 1);
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+#temp3{
+  height: 100px;
+  width: 100px;
+  border: 10px solid rgba(0, 153, 51, 1);
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+.info{
+  align-self: center;
+  width: 100%;
+  font-family: Roboto light;
+  font-size: 18pt;
+}
+.cards {
+  height: 100vh;
+  min-width: 25%;
+  position: absolute;
+  right: 0px;
 }
 
 #nytkort {
-  width: 250px;
+  width: 60%;
   height: 140px;
   background-color: white;
-  margin-left: 200px;
+  margin-left: 80px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-left: 4px solid rgba(0, 153, 51, 1);
   position: absolute;
   top: 80px;
+  left: 40px;
 }
 
 #nytkort2 {
-  width: 250px;
+  width: 60%;
   height: 140px;
   background-color: white;
-  margin-left: 200px;
+  margin-left: 80px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-left: 4px solid rgba(255, 0, 0, 0.2);
   position: absolute;
   top: 250px;
+  left: 40px;
 }
 
 #nytkort3 {
-  width: 250px;
+  width: 60%;
   height: 140px;
   background-color: white;
-  margin-left: 200px;
+  margin-left: 80px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-left: 4px solid rgba(0, 0, 255, 0.2);
   position: absolute;
   top: 420px;
+  left: 40px;
 }
 
 #nytkort4 {
-  width: 250px;
+  min-width: 60%;
   height: 140px;
   background-color: white;
-  margin-left: 200px;
+  margin-left: 80px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-left: 4px solid rgba(255, 255, 0, 0.2);
   position: absolute;
   top: 590px;
+  left: 40px;
 }
 
 .titletext {
@@ -476,7 +543,7 @@ label.inputtoggle3>input {
   top: 80px;
   height: 650px;
   width: 60%;
-  left: 230px;
+  left: 350px;
   display: flex;
   justify-content: center;
 }
@@ -487,15 +554,11 @@ svg {
   transform: rotateZ(-90deg);
   align-self: center;
   display: flex;
-}
-
-
-svg circle {
   stroke-dasharray: 813px;
   stroke-dashoffset: 0px;
   stroke-linecap: round;
   stroke-width: 12px;
-  stroke: #90ee90;
+  stroke: #009933;
   fill: none;
   animation: countdown 8s linear infinite forwards;
 }
