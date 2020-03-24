@@ -87,3 +87,12 @@ function uncheckall(_this) {
   liste[3].style.borderColor = 'rgba(0, 0, 0, 0.2)';
   _this.checked = true
 }
+
+function hideConsole() {
+  var elem = document.getElementById("console");
+  if (elem.style.display === "none") {
+    elem.style.display = "block";
+  } else {
+    elem.style.display = "none";
+  }
+}

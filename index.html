@@ -30,7 +30,7 @@
 
   </div>
   <div id="maincontrol">
-    <h2>MENTAL SHOWER</h2>
+    <h3>MENTAL SHOWER</h2>
   </div>
   <div id="countdown">
     <svg id="svg">
@@ -53,15 +53,31 @@
       <p class="dialtxt">lystemperatur</p>
       <div id="temp3">
         <p id="demo3">8400K</p>
-        <button class="settingsbutton" type="button" name="button">tune</button>
+        <button class="settingsbutton" type="button" name="button" onclick="hideConsole()">tune</button>
 
       </div>
       <div id="console">
         <div class="sliders">
-          <input class="slidersinv" type="range" id="a" name="a" min="0" max="100" value="50" tabindex="0"/>
-          <output name="result" for="a">40</output>
-          <input class="slidersinv" type="range"  min="0" max="100" value="50" tabindex="0"/>
-          <input class="slidersinv" type="range"  min="0" max="100" value="50" tabindex="0"/>
+          <h2>Temperatur</h2>
+          <br>
+          <input type="range" name="temp" id="temper" value="21" min="18" max="24" oninput="ageOutputId.value = temper.value">
+          <br>
+          <output name="ageOutputName" id="ageOutputId">21</output><p class="gradertxt">grader</p>
+
+          <h2>Luftfugtighed</h2>
+          <br>
+          <input type="range" name="humidity" id="ageInputId" value="35" min="30" max="55" oninput="ageOutputId1.value = ageInputId.value">
+          <br>
+          <output name="ageOutputName" id="ageOutputId1">35</output><p class="gradertxt">procent</p>
+
+          <h2>Lystemperatur</h2>
+          <br>
+          <input step="100" type="range" name="ageInputName" id="ageInputId1" value="2400" min="2000" max="5800" oninput="ageOutputId2.value = ageInputId1.value">
+          <br>
+          <output name="ageOutputName" id="ageOutputId2">2400</output><p class="gradertxt">kelvin</p>
+
+
+
         </div>
 
       </div>
