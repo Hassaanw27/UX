@@ -261,7 +261,7 @@ h2{
 }
 
 .cards {
-  height: 100vh;
+  height: 70%;
   min-width: 25%;
   position: absolute;
   right: 0px;
