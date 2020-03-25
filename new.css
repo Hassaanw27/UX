@@ -119,12 +119,14 @@ h1::first-letter {
 
 h3{
   font-family: Roboto light;
-  font-size: 12pt;
+  font-weight: 300;
+  font-size: 24pt;
   margin-top: 40px;
 }
 
 h2{
   font-family: Roboto light;
+  font-weight: 300;
   font-size: 12pt;
   margin-top: 80px;
   margin-bottom: -10px;
@@ -164,6 +166,7 @@ h2{
   border: none;
   text-align: center;
   font-family: Roboto medium;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
   color: #009688;
@@ -180,9 +183,9 @@ h2{
 .infodisp {
   position: absolute;
   top: 120px;
-  height: 70%;
+  height: 700px;
   width: 12%;
-  left: 150px;
+  left: 100px;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 6px;
@@ -194,15 +197,17 @@ h2{
   width: 80%;
   align-self: center;
   margin: 0 auto;
+  margin-top: -20%;
   text-align: center;
 }
 
 .dialtxt {
-  font-family: Roboto medium;
+  font-family: Roboto;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   padding-top: 24px;
-  font-size: 8pt;
+  font-size: 10pt;
 }
 
 #temp {
@@ -236,6 +241,7 @@ h2{
   align-self: center;
   width: 100%;
   font-family: Roboto light;
+  font-weight: 300;
   font-size: 18pt;
 }
 
@@ -243,6 +249,7 @@ h2{
   align-self: center;
   width: 100%;
   font-family: Roboto light;
+  font-weight: 300;
   font-size: 18pt;
 }
 
@@ -250,6 +257,7 @@ h2{
   align-self: center;
   width: 100%;
   font-family: Roboto light;
+  font-weight: 300;
   font-size: 18pt;
 }
 
@@ -257,6 +265,7 @@ h2{
   align-self: center;
   width: 100%;
   font-family: Roboto light;
+  font-weight: 300;
   font-size: 18pt;
 }
 
@@ -764,8 +773,10 @@ input[type=range]::-ms-thumb {
 }
 output{
   font-family: Roboto medium;
+  font-weight: 500;
 }
 #ageOutputId{
   font-family: Roboto medium;
+  font-weight: 500;
   padding: 12px;
 }
