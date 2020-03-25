@@ -139,7 +139,7 @@ h2{
 #maincontrol {
   position: absolute;
   top: 120px;
-  height: 70%;
+  height: 700px;
   width: 60%;
   left: 20%;
   background-color: white;
@@ -324,7 +324,7 @@ h2{
 
 
 .cards {
-  height: 70%;
+  height: 750px;
   width: 18%;
   position: absolute;
   right: 0px;
