@@ -88,20 +88,25 @@
   </div>
   <div class="cards">
     <div id="nytkort">
-      <h5 class="titletext">Automatisk</h5>
-      <p class="supportingtext">Tryk her for at aktivere autoindstillingen</p>
-      <div class="link">
-        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      <div class="leftside">
+        <h5 class="titletext">Automatisk</h5>
+        <p class="supportingtext">Tryk her for at aktivere autoindstillingen</p>
+        <div class="togglepos">
+          <label class="inputtoggle">
+            <input id="winterpreset" type="checkbox" checked onChange="anotherFunction(nytkort, this)">
+            <span class="switch1"></span>
+          </label>
+        </div>
+        <div class="icon">
+          <i class="material-icon">brightness_auto</i>
+        </div>
       </div>
-      <div class="icon">
-        <i class="material-icon">brightness_auto</i>
+      <div class="rightside">
+
       </div>
-      <div>
-        <label class="inputtoggle">
-          <input id="winterpreset" type="checkbox" checked onChange="anotherFunction(nytkort, this)">
-          <span class="switch1"></span>
-        </label>
-      </div>
+
+
+
     </div>
     <div id="nytkort2">
       <h5 class="titletext">Koldere</h5>

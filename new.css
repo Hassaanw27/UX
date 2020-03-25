@@ -260,13 +260,6 @@ h2{
   font-size: 18pt;
 }
 
-.cards {
-  height: 70%;
-  min-width: 25%;
-  position: absolute;
-  right: 0px;
-}
-
 .settingsbutton{
   position: absolute;
   bottom: 0;
@@ -298,17 +291,68 @@ h2{
   padding-top: 40px;
 }
 
+.supportingtext {
+  padding-left: 24px;
+  padding-top: 6px;
+  font-family: Roboto;
+  font-weight: 300;
+  width: 60%;
+  color: grey;
+  font-size: 10pt;
+  margin: 0;
+}
+
+.link {
+  text-align: center;
+}
+
+.leftside{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+.titletext {
+  font-family: Roboto;
+  font-weight: 400;
+  padding-left: 24px;
+  padding-top: 24px;
+  font-size: 14pt;
+  margin: 0;
+}
+
+
+.cards {
+  height: 70%;
+  min-width: 25%;
+  position: absolute;
+  right: 0px;
+  top: 120px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr
+}
+
+.icon {
+  position: relative;
+  margin-left: 70%;
+  margin-top: -95px;
+}
+
+.togglepos{
+  margin-top: 10%;
+  padding-left: 24px;
+}
+
 #nytkort {
   width: 50%;
   height: 140px;
   background-color: white;
-  margin-left: 100px;
+  margin-left: 120px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-left: 4px solid #7C25A7;
-  position: absolute;
-  top: 120px;
-  left: 40px;
+  grid-row: 1;
 }
 
 #nytkort2 {
@@ -350,31 +394,8 @@ h2{
   left: 40px;
 }
 
-.titletext {
-  font-family: Roboto;
-  font-weight: 400;
-  padding-left: 24px;
-  padding-top: 24px;
-  font-size: 14pt;
-  margin: 0;
-  position: absolute;
-}
 
-.supportingtext {
-  padding-left: 24px;
-  padding-top: 6px;
-  font-family: Roboto;
-  font-weight: 300;
-  width: 60%;
-  color: grey;
-  position: absolute;
-  top: 30%;
-  font-size: 8pt;
-}
 
-.link {
-  text-align: center;
-}
 
 .activatebutton {
   text-decoration: none;
@@ -391,11 +412,7 @@ h2{
   display: none;
 }
 
-.icon {
-  position: absolute;
-  right: 24px;
-  top: 40px;
-}
+
 
 .material-icon {
   font-size: 48pt;
@@ -408,9 +425,8 @@ label.inputtoggle {
   font-size: 0;
   display: inline-block;
   margin: 0;
-  position: absolute;
-  left: 24px;
-  bottom: 12px;
+
+
 }
 
 label.inputtoggle>span {
