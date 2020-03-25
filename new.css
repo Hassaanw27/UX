@@ -118,21 +118,21 @@ h1::first-letter {
 }
 
 h3{
-  font-family: Roboto light;
+  font-family: Roboto;
   font-weight: 300;
   font-size: 24pt;
   margin-top: 40px;
 }
 
 h2{
-  font-family: Roboto light;
+  font-family: Roboto;
   font-weight: 300;
   font-size: 12pt;
   margin-top: 80px;
   margin-bottom: -10px;
 }
 .gradertxt{
-  font-family: Roboto medium;
+  font-family: Roboto;
   text-transform: capitalize;
   margin: 0;
   color: grey;
@@ -165,7 +165,7 @@ h2{
   display: flex;
   border: none;
   text-align: center;
-  font-family: Roboto medium;
+  font-family: Roboto;
   font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
@@ -184,8 +184,8 @@ h2{
   position: absolute;
   top: 120px;
   height: 700px;
-  width: 12%;
-  left: 100px;
+  width: 240px;
+  left: 5%;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 6px;
@@ -194,7 +194,7 @@ h2{
 
 .dials {
   height: 90%;
-  width: 80%;
+
   align-self: center;
   margin: 0 auto;
   margin-top: -20%;
@@ -240,7 +240,7 @@ h2{
 .info {
   align-self: center;
   width: 100%;
-  font-family: Roboto light;
+  font-family: Roboto;
   font-weight: 300;
   font-size: 18pt;
 }
@@ -248,7 +248,7 @@ h2{
 #demo {
   align-self: center;
   width: 100%;
-  font-family: Roboto light;
+  font-family: Roboto;
   font-weight: 300;
   font-size: 18pt;
 }
@@ -256,7 +256,7 @@ h2{
 #demo2 {
   align-self: center;
   width: 100%;
-  font-family: Roboto light;
+  font-family: Roboto;
   font-weight: 300;
   font-size: 18pt;
 }
@@ -264,7 +264,7 @@ h2{
 #demo3 {
   align-self: center;
   width: 100%;
-  font-family: Roboto light;
+  font-family: Roboto;
   font-weight: 300;
   font-size: 18pt;
 }
@@ -772,11 +772,11 @@ input[type=range]::-ms-thumb {
   height: 1.9px;
 }
 output{
-  font-family: Roboto medium;
+  font-family: Roboto;
   font-weight: 500;
 }
 #ageOutputId{
-  font-family: Roboto medium;
+  font-family: Roboto;
   font-weight: 500;
   padding: 12px;
 }
