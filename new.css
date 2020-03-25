@@ -349,43 +349,39 @@ h2{
   width: 250px;
   height: 140px;
   background-color: white;
-
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid #7C25A7;
+  border-left: 4px solid rgb(124, 37, 167);
   grid-row: 1;
 }
 
 #nytkort2 {
-  width: 50%;
+  width: 250px;
   height: 140px;
   background-color: white;
-  margin-left: 120px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid #7C25A7;
+  border-left: 4px solid rgba(0, 141, 255, 0.2);
   grid-row: 2;
 }
 
 #nytkort3 {
-  width: 50%;
+  width: 250px;
   height: 140px;
   background-color: white;
-  margin-left: 120px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid #7C25A7;
+  border-left: 4px solid rgba(255, 170, 0, 0.2);
   grid-row: 3;
 }
 
 #nytkort4 {
-  width: 50%;
+  width: 250px;
   height: 140px;
   background-color: white;
-  margin-left: 120px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-left: 4px solid #7C25A7;
+  border-left: 4px solid rgba(0, 0, 0, 0.2);
   grid-row: 4;
 }
 
@@ -420,8 +416,6 @@ label.inputtoggle {
   font-size: 0;
   display: inline-block;
   margin: 0;
-
-
 }
 
 label.inputtoggle>span {
@@ -540,9 +534,6 @@ label.inputtoggle2 {
   font-size: 0;
   display: inline-block;
   margin: 0;
-  position: absolute;
-  left: 24px;
-  bottom: 12px;
 }
 
 label.inputtoggle2>span {
@@ -602,9 +593,6 @@ label.inputtoggle3 {
   font-size: 0;
   display: inline-block;
   margin: 0;
-  position: absolute;
-  left: 24px;
-  bottom: 12px;
 }
 
 label.inputtoggle3>span {

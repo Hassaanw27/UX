@@ -62,19 +62,22 @@
           <br>
           <input type="range" name="temp" id="temper" value="21" min="18" max="24" oninput="ageOutputId.value = temper.value">
           <br>
-          <output name="ageOutputName" id="ageOutputId">21</output><p class="gradertxt">grader</p>
+          <output name="ageOutputName" id="ageOutputId">21</output>
+          <p class="gradertxt">grader</p>
 
           <h2>Luftfugtighed</h2>
           <br>
           <input type="range" name="humidity" id="ageInputId" value="35" min="30" max="55" oninput="ageOutputId1.value = ageInputId.value">
           <br>
-          <output name="ageOutputName" id="ageOutputId1">35</output><p class="gradertxt">procent</p>
+          <output name="ageOutputName" id="ageOutputId1">35</output>
+          <p class="gradertxt">procent</p>
 
           <h2>Lystemperatur</h2>
           <br>
           <input step="100" type="range" name="ageInputName" id="ageInputId1" value="2400" min="2000" max="5800" oninput="ageOutputId2.value = ageInputId1.value">
           <br>
-          <output name="ageOutputName" id="ageOutputId2">2400</output><p class="gradertxt">kelvin</p>
+          <output name="ageOutputName" id="ageOutputId2">2400</output>
+          <p class="gradertxt">kelvin</p>
 
 
 
@@ -102,59 +105,55 @@
         </div>
       </div>
       <div class="rightside">
-
       </div>
-
-
-
     </div>
     <div id="nytkort2">
-      <h5 class="titletext">Koldere</h5>
-      <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
-      <div class="link">
-        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      <div class="leftside">
+        <h5 class="titletext">Koldere</h5>
+        <p class="supportingtext">Tryk her for at aktivere vinterindstillingen</p>
+        <div class="togglepos">
+          <label class="inputtoggle1">
+            <input id="checkbox" type="checkbox" unchecked onChange="myFunction(nytkort2, this)">
+            <span></span>
+          </label>
+        </div>
       </div>
       <div class="icon">
         <i class="material-icon">ac_unit</i>
       </div>
-      <div>
-        <label class="inputtoggle1">
-          <input id="checkbox" type="checkbox" unchecked onChange="myFunction(nytkort2, this)">
-          <span></span>
-        </label>
-      </div>
     </div>
     <div id="nytkort3">
-      <h5 class="titletext">Varmere</h5>
-      <p class="supportingtext">Tryk her for at aktivere forårsindstillingen</p>
-      <div class="link">
-        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      <div class="leftside">
+        <h5 class="titletext">Varmere</h5>
+        <p class="supportingtext">Tryk her for at aktivere forårsindstillingen</p>
+        <div class="togglepos">
+          <label class="inputtoggle2">
+            <input type="checkbox" unchecked onChange="athirdFunction(nytkort3, this)">
+            <span></span>
+          </label>
+        </div>
       </div>
       <div class="icon">
         <i class="material-icon">wb_sunny</i>
       </div>
-      <div>
-        <label class="inputtoggle2">
-          <input type="checkbox" unchecked onChange="athirdFunction(nytkort3, this)">
-          <span></span>
-        </label>
-      </div>
+
     </div>
     <div id="nytkort4">
-      <h5 class="titletext">Brugerdefineret</h5>
-      <p class="supportingtext">Tryk her for at aktivere din brugerdefinerede indstilling</p>
-      <div class="link">
-        <a class="activatebutton" href="https://www.dr.dk">aktiver</a>
+      <div class="leftside">
+        <h5 class="titletext">Brugerdefineret</h5>
+        <p class="supportingtext">Tryk her for at aktivere din brugerdefinerede indstilling</p>
+        <div class="togglepos">
+          <label class="inputtoggle3">
+            <input type="checkbox" unchecked onChange="afourthFunction(nytkort4, this)">
+            <span></span>
+          </label>
+        </div>
       </div>
+
       <div class="icon">
         <i class="material-icon">settings</i>
       </div>
-      <div>
-        <label class="inputtoggle3">
-          <input type="checkbox" unchecked onChange="afourthFunction(nytkort4, this)">
-          <span></span>
-        </label>
-      </div>
+
     </div>
 
   </div>
